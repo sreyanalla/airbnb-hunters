@@ -28,15 +28,19 @@ By grouping both, NYC Housing Sales and AirBnb Rental Price, datasets by neighbo
 Combining this data and re-plotting (Figure 3 and Figure 4) it allowed us to visualize sale price per square foot compared to AirBnb revenue per square foot in each neighborhood; in turn helping us categorize neighborhoods into different segments based on property prices and potential rental income
 
 ![NYC Housing Sale Prices Per Neighborhood](Images/1_housing_sale_price_per_neighborhood.png)
+
 *Figure 1: NYC housing sale prices per neighborhood*
 
 ![NYC AirBnb Price Per Night By Neighborhood](Images/2_airbnb_price_per_night_by_neighborhood.png)
+
 *Figure 2: Airbnb price per night by neighborhood*
 
 ![Sale Price Per SQFT vs. AirBnb Revenue By Neighborhood](Images/3_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood.png)
+
 *Figure 3: Sale price per square foot vs. Airbnb revenue per square foot by neighborhood*
 
 ![Scatter Sale Price vs AirBnb Revenue By Neighborhood](Images/4_scatter_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood.png)
+
 *Figure 4: Scatter plot of sale price vs. Airbnb revenue by neighborhood*
 
 ### Top 25 Neighborhoods to Consider
@@ -46,12 +50,15 @@ Figure 3 and Figure 4 helped us identify neighborhoods where sale prices were re
 Figure 5, specifically, shows the top 25 neighborhoods sorted by ratio of Average Sale Price vs AirBnb Rental Price:
 
 ![Top 25 by Ratio](Images/5_top_25_neighborhood_dataframe.png)
+
 *Figure 5: List of Top 25 Neighborhoods sorted by average sale price vs. AirBnb rental price ratio*
 
 ![Top 25 Sale vs AirBnb By Neighborhood](Images/6_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood_top_25.png)
+
 *Figure 6: Scatter plot of Top 25 Neighborhoods sorted by average sale price vs. AirBnb rental price ratio*
 
 ![Top 25 Housing Sale Price per Neighborhood](Images/7_housing_sale_price_per_neighborhood_2016_2017.png)
+
 *Figure 7: Top 25 Neighborhoods - Housing Sale Price per Neighborhood in 2016 compared to 2017* 
 
 ### Understanding Sale Price Change (Year over Year)
@@ -63,19 +70,23 @@ City Island (-25%), Westchester Square (-15%), Flatlands (-9.5%), Riverdale (-7.
 Figure 8 below plots the Top 25 neighborhoods we've selected against each other over 2016 and 2017. From this graph, we're able to identify a general year over year change in sale price per neighborhood.
 
 ![Top 25 Sale Price by Neighborhood YoY](Images/8_top_25_housing_sale_price_by_neighborhood.png)
+
 *Figure 8: Price Per Square Foot view of Housing Sale Price per Neighborhood in 2016 vs. 2017*
 
 The same data is visible in Figure 9; displaying the exact percent change in NYC housing sale price between 2016 and 2017.
 
 ![YoY Rate](Images/9_yoy_percent_change_sale_price.png)
+
 *Figure 9: Top 25 Neighborhood Stats showing YoY Calculations*
 
 Looking further into percent change in sale price when compared to the sale price to AirBnb ratio (see Figure 10 and 11), we were able to identify that Westchester Square is the most optimal place to purchase an AirBnb short-term rental property! 
 
 ![Sale to AirBnb Ratio vs. Percent Change in Sale - OSM](Images/10_sale_price_to_airbnb_price_ratio_vs_percent_change_sale_price.png)
+
 *Figure 10: OSM view of Sale Price to AirBnb Price Ratio vs. Percent Change in Sale Prices (2016-2017)*
 
 ![Sale to AirBnb Ratio vs. Percent Change in Sale - ESRI](Images/11_sale_price_to_airbnb_price_ratio_vs_percent_change_sale_price_view2.png)
+
 *Figure 11: ESRI view of Sale Price to AirBnb Price Ratio vs. Percent Change in Sale Prices (2016-2017)*
 
 ### What's available to buy!?
@@ -85,9 +96,11 @@ Within the top 25 ideal neighborhoods to purchase, we targeted the neighborhoods
 Based on our analysis, Westchester Square was the optimal location to buy a home for AirBnB profitable rentals with a high nightly rental to purchase price ratio and decreasing trend for sale prices to buy a property. Using the Scrapy library and code below (Figure 12), we were able to scrape Homes.com to find the following list of properties to consider buying (Figure 13).
 
 ![Snippet of Scrappy Python Code](Images/12_scrapy_python_code.png)
+
 *Figure 12: Snippet of Scrappy Python code used to extract available listings in a specified neighborhood*
 
 ![Snippet of Scrapy Listings](Images/13_scrapy_house_listings.png)
+
 *Figure 13: Available listings captured via Scrapy*
 
 ## Software and Technologies Used
