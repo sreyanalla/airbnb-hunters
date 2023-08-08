@@ -19,9 +19,8 @@ class SinglePageSpider(scrapy.Spider):
                 "Website URL": response.urljoin(url) if url else None,
             }
 
-## RUN THIS CODE IN TERMINAL WITHIN YOUR SCRAPY FOLDER:
-## scrapy crawl single_page_spider -o output.json
-## THIS WILL OUTPUT YOUR INFO
+## RUN THIS CODE IN TERMINAL WITHIN YOUR SCRAPY FOLDER: scrapy crawl single_page_spider -o output.json
+## THIS WILL OUTPUT YOUR INFO INTO A JSON FILE FOR REFERENCE
 
 
 
