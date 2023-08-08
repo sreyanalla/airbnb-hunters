@@ -189,13 +189,26 @@ scrapy crawl single_page_spider -o output.json
 
 ## Use Cases
 
-The primary use case for project would be real-estate investment insight. With such insight, we can help potential investors choose  neighborhoods with high potential for Airbnb rental income.
+The primary use case for project would be real-estate investment insight. With such insight, we can help potential investors choose neighborhoods with high potential for Airbnb rental income.
 
 ## What if we had more time...?
 
 1. Create an application or dashboard to run analysis based on user input for city
 2. Convert the `scrapy` script to automated web search instead of manual entry to allow for more accessible use
 3. Implement a calculator to recommend locations based on a potential investor's price range
+
+## Code and Presentation Files
+1. [`GitHub Project Repository`](git@github.com:sreyanalla/airbnb-hunters.git)
+
+    `https://git@github.com:sreyanalla/airbnb-hunters.git`
+    
+2. [`Jupyter Notebook Project Code`](Code/airbnb_hunters_final_code.ipynb)
+    
+    `Repository/Code/airbnb_hunters_final_code.ipynb`
+    
+3. [`Project Class Presentation Slides`](airbnb_hunters_final_slides.pdf)
+
+    `Repository/airbnb_hunters_final_slides.pdf`
 
 ## Team Information
 
