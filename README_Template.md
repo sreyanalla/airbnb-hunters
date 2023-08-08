@@ -24,10 +24,51 @@
 - Our project aims to assist potential investors in identifying the most optimal neighborhood for their Airbnb rental investment. Through data-driven analysis, we can empower investors to navigate the nuances of property prices and rental demand.
 
 ## Findings
+#### It's possible to identify optimal locations for real estate investment in NYC by analyzing AirBnB nightly rental data and NYC sales prices
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+
+
+
+
+
+
+Where is the optimal location to buy a rental property in NYC based on nightly revenue from an AirBnB?
+
+![](Images/screenshot.png)
+![Example screenshot](Images/1_housing_sale_price_per_neighborhood.png)
+![Example screenshot](Images/2_airbnb_price_per_night_by_neighborhood.png)
+![Example screenshot](Images/3_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood.png)
+![Example screenshot](Images/4_scatter_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood.png)
+
+What are the top 25 neighborhoods to consider?
+
+Top 25 neighborhoods sorted by ratio of Average Sale Price vs AirBnb Rental Price:
+
+![Example screenshot](Images/5_top_25_neighborhood_dataframe.png)
+
+
+![](Images/6_sale_price_per_sqft_vs_airbnb_revenue_by_neighborhood_top_25.png)
+
+![Example screenshot](Images/7_housing_sale_price_per_neighborhood_2016_2017.png)
+
+Where are sale prices falling within NYC neighborhoods in order isolate attractive neighborhoods?
+
+![Example screenshot](Images/8_top_25_housing_sale_price_by_neighborhood.png)
+
+
+![Example screenshot](Images/9_yoy_percent_change_sale_price.png)
+![Example screenshot](Images/10_sale_price_to_airbnb_price_ratio_vs_percent_change_sale_price.png)
+![Example screenshot](Images/11_sale_price_to_airbnb_price_ratio_vs_percent_change_sale_price_view2.png)
+
+What are available housing units to buy within the ideal neighborhood?
+
+Within the top 25 ideal neighborhoods to purchase, we targeted the neighborhoods with the largest year-over-year price declines.  The top 3 largest decliners were City Island, Westchester Square, and Flatlands, with declines of 10% to 25%.
+
+Based on our analysis, Westchester Square was the optimal location to buy a home for AirBnB profitable rentals with a high nightly rental to purchase price ratio and decreasing trend for sale prices to buy a property.   Using the Scrapy library and code below, we were able to scrape Homes.com to find the following list of properties to consider buying.
+
+![Example screenshot](Images/12_scrapy_python_code.png)
+![Example screenshot](Images/13_scrapy_house_listings.png)
+
 
 ## Technologies and Datasets Used
 ### Development Environment
