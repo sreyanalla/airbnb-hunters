@@ -140,10 +140,10 @@ By using both of these datasets together, we are able to make informed decisions
 
 ### Preparing the Data
 To ensure the data being used is clean and consistent we:
-1. Droped the null values
-2. Droped unwanted, noisy columns
+1. Dropped the null values
+2. Dropped unwanted, noisy columns
 3. Calculated critical metrics
-    * Average price per squarefoot
+    * Average price per square foot
     * Average price per AirBnb rental night
     * Sale price to nightly rental rate ratio
     * Percent Change (Year over Year) in sale price between 2016 and 2017
@@ -168,7 +168,7 @@ To ensure the data being used is clean and consistent we:
     * Scatter plot to see correlation of top 25 locations for Sale Price per SQ FT and AirBnB Rental Price per Night by Neighborhood
     * Top 25 neighborhoods average price per SQFT per year (2016 and 2017)
     * Top 25 neighborhoods average price per SQFT showcasing locations that have falling sale prices optimal for cheap purchase
-    * Finnal 25 neighborhoods using geoviews to visualize optimal location for investment based on average nightly AirBnB rental price vs percent change in sale price between 2016 and 2017
+    * Final 25 neighborhoods using geoviews to visualize optimal location for investment based on average nightly AirBnB rental price vs percent change in sale price between 2016 and 2017
 
 ### Locating available investment properties from homes.com via website scraper
 In order to use a new library, we imported Scrapy to do website scraping to find available apartments to buy in optimal location
