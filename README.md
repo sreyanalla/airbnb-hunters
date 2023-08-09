@@ -9,6 +9,7 @@ The goal of this project was to use existing housing and AirBnb data in order to
 * [Software and Technologies Used](#software-and-technologies-used)
 * [Use Cases](#use-cases)
 * [What If We Had More Time](#what-if-we-had-more-time)
+* [Code and Presentations Files](#code-and-presentation-files)
 * [Team Information](#team-information)
 
 ## General Information
